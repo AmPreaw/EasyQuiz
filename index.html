@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>คำถามข้อที่ 1</h1>
+      <p id="question1">PIM ย่อมาจากอะไร ?</p>
+      <button class="button" onclick="checkAnswer('result1', 'a')">
+        A) พีไอเอ็ม
+      </button>
+      <button class="button" onclick="checkAnswer('result1', 'b')">
+        B) ปิ๋ม
+      </button>
+      <button class="button" onclick="checkAnswer('result1', 'c')">
+        C) พิม
+      </button>
+      <button class="button" onclick="checkAnswer('result1', 'd')">
+        D) ภีม
+      </button>
+      <p id="result1"></p>
+    </div>
+    <div class="quiz-container">
+      <h1>คำถามข้อที่ 2</h1>
+      <p id="question2">Panyatara ทำอะไร ?</p>
+      <button class="button" onclick="checkAnswer('result2', 'a')">
+        A) ช่างซ้อม
+      </button>
+      <button class="button" onclick="checkAnswer('result2', 'b')">
+        B) พนักงานขาย
+      </button>
+      <button class="button" onclick="checkAnswer('result2', 'c')">
+        C) คิดค้นสูตรอาหาร
+      </button>
+      <button class="button" onclick="checkAnswer('result2', 'd')">
+        D) จัดฝึกอบรม
+      </button>
+      <p id="result2"></p>
+    </div>
+
+    <div class="summary-container"><p id="summary"></p></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
